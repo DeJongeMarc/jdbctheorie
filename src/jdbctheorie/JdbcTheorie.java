@@ -17,6 +17,8 @@ public class JdbcTheorie {
     private static final String USER = "cursist";
     private static final String PASSWORD = "cursist";
     private static final String CALL_PLANTEN_MET_EEN_WOORD = "{call PlantenMetEenWoord(?)}";
+    
+    /* extra commentaar om git uit te proberen*/
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
